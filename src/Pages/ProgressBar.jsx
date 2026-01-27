@@ -69,7 +69,7 @@ const ProgressBar = () => {
                         alt=""
                         className="w-full h-56 sm:h-64 md:h-full object-cover"
                     />
-                    <div className="absolute right-4 top-4 md:-right-6 md:top-1/2 md:-translate-y-1/2 bg-[#89EA5F] w-14 h-14 rounded-full flex items-center justify-center border-4 border-white shadow-lg">
+                    <div className="absolute  transition hover:bg-[#45b316] duration-300 hover:scale-115 right-4 top-4 md:-right-6 md:top-1/2 md:-translate-y-1/2 bg-[#89EA5F] w-14 h-14 rounded-full flex items-center justify-center border-4 border-white shadow-lg">
                         <PhoneCall className="text-white w-6 h-6" />
                     </div>
                 </div>

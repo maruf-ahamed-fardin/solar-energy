@@ -74,6 +74,12 @@
   animation: leftToRight 0.8s ease-out forwards;
 }
 
+.left-to-right-hover {
+  opacity: 0;
+  background-color: #21550b;
+  animation: leftToRight 0.8s ease-out forwards;
+}
+
 @keyframes leftToRight {
   from {
     transform: translateX(-40px);

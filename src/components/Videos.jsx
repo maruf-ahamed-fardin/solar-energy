@@ -16,7 +16,7 @@ const Videos = () => {
                         backgroundImage:
                             "url('https://img.youtube.com/vi/CoZuudNfZS0/maxresdefault.jpg')",
                     }}>
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <div className="absolute inset-0  flex items-center justify-center">
                         <div className="text-white text-2xl border-2 border-white rounded-full w-17 h-14 flex items-center justify-center">
                             <Play />
                         </div>
@@ -27,10 +27,10 @@ const Videos = () => {
         {
             open && (
                 <div className="fixed rounded-4xl inset-0 bg-black/70 flex items-center justify-center z-50">
-                    <div className="relative w-[150%] max-w-4xl aspect-video bg-black rounded-xl">
+                    <div className="relative w-[150%] max-w-4xl aspect-video ">
                         <button
                             onClick={() => setOpen(false)}
-                            className="absolute top-2 right-1  p-1 rounded-full  text-white text-xl"
+                            className="absolute top-2 right-30  p-1 rounded-full  text-white text-xl"
                         >
                             ✕
                         </button>

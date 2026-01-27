@@ -50,7 +50,7 @@ const FeatureCard = ({ title, desc, icon, bg }) => {
     <section>
 
       <div>
-        <div className="group relative overflow-hidden  rounded-[28px] bg-white px-8 py-10 shadow-sm ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <div className="group relative overflow-hidden    hover:scale-108 rounded-[28px] bg-white px-8 py-10 shadow-sm ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
           <div
             className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"

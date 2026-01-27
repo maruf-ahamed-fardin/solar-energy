@@ -14,8 +14,8 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <div className="relative w-full overflow-hidden h-full md:min-h-183 pb-16 md:pb-24">
-      <div className="absolute inset-0 bg-black/60"></div>
+    <div className="relative w-full overflow-hidden h-full md:max-h-screen  lg:px-20 md:pb-100 p-2  pb-20  bg-black/50">
+      <div className="absolute inset-0  "></div>
 
       <ContactLinks />
 
@@ -39,7 +39,7 @@ const Navbar = () => {
             ))}
           </ul>
           <Link to="/contact">
-            <button className="btn btn-primary px-4 sm:px-5 py-2 font-bold rounded-2xl">
+            <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-4 sm:px-5 py-1 font-bold rounded-2xl">
               Contact Us
             </button>
           </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-3 leading-tight">
             Powering the Future With
-            <span className="italic font-serif text-[#89EA5F]"> Renewable.</span>
+            <span className="italic font-serif text- text-[#89EA5F]"> Renewable.</span>
           </h1>
 
           <p className="mt-3 text-gray-200 text-sm sm:text-base">
@@ -62,11 +62,11 @@ const Navbar = () => {
           </p>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="btn btn-primary px-5 py-1 rounded-2xl">
+            <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl">
               Our Service
             </button>
             <Link to="/contact">
-              <button className="btn btn-primary px-5 py-1 rounded-2xl">
+              <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl">
                 Contact Now
               </button>
             </Link>

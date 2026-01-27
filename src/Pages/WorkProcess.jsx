@@ -29,7 +29,7 @@ const WorkProcess = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     <div className="text-center">
                         <div className="flex justify-center mb-4">
-                            <NotebookPen size={100} color="white" className="p-6 bg-[#89EA5F] rounded-3xl" />
+                            <NotebookPen size={100} color="white" className="p-6  transition hover:bg-[#45b316] duration-300 hover:scale-115 bg-[#89EA5F] rounded-3xl" />
                         </div>
                         <h1 className="font-bold text-xl mb-2 font-serif">
                             Project Planning
@@ -41,7 +41,7 @@ const WorkProcess = () => {
 
                     <div className="text-center">
                         <div className="flex justify-center mb-4">
-                            <GiArchiveResearch size={100} color="white" className="p-6 bg-[#89EA5F] rounded-3xl" />
+                            <GiArchiveResearch size={100} color="white" className="p-6  transition hover:bg-[#45b316] duration-300 hover:scale-115 bg-[#89EA5F] rounded-3xl" />
                         </div>
                         <h1 className="font-bold text-xl mb-2 font-serif">
                             Research & Analysis
@@ -54,7 +54,7 @@ const WorkProcess = () => {
 
                     <div className="text-center">
                         <div className="flex justify-center mb-4">
-                            <GiSolarPower size={100} color="white" className="p-6 bg-[#89EA5F] rounded-3xl" /> </div>
+                            <GiSolarPower size={100} color="white" className="p-6 transition hover:bg-[#45b316] duration-300 hover:scale-115 bg-[#89EA5F] rounded-3xl" /> </div>
                         <h1 className="font-bold text-xl mb-2 font-serif">
                             Solar Installation
                         </h1>

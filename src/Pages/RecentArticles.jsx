@@ -22,18 +22,20 @@ export default function BlogSection() {
   return (
 
     <section className="bg-white py-14 left-to-right">
-      <div className="text-center justify-center">
-        <h3 className="font-bold text-sm flex items-center ml-160 text-[#7ED957] uppercase gap-1 mb-2">
-          <MdElectricBolt  color="#7ED957" size={30} /> Energy progress</h3>
+      <div className="text-center justify-center mb-10">
+        <h3 className="font-bold text-sm flex md:ml-168 items-center justify-center md:justify-start text-[#7ED957] uppercase gap-1 mb-2">
+                        <MdElectricBolt color="#7ED957" size={30} />
+                        Energy progress
+                    </h3>
         <h1 className='font-bold text-4xl mb-6'>Best Solution For Your
           Solar Energy</h1>
       </div>
       <div className="mx-auto max-w-6xl px-4">
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3 ">
           {blogData.map((item, index) => (
             <div
               key={index}
-              className="group  relative h-[380px] overflow-hidden rounded-[32px] shadow-lg">
+              className="group transition duration-300 hover:scale-110 relative h-[380px] overflow-hidden rounded-[32px] shadow-lg">
               <img
                 src={item.image}
                 alt={item.title}
@@ -62,7 +64,7 @@ export default function BlogSection() {
 
                 <div
                   className=" mt-5 opacity-0 translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                  <button className="rounded-full bg-[#89EA5F] px-6 py-2 text-sm font-semibold text-white hover:bg-[#89EA5F]">
+                  <button className="rounded-full bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] text-white px-6 py-2 text-sm font-semibold text-white hover:bg-[#89EA5F]">
                     Read More
                   </button>
                 </div>

@@ -22,9 +22,9 @@ const ContactLinks = () => {
 
             <div className='flex items-center gap-4 animate-fade-in animation-delay-400'>
 
-                <a href="https://github.com/maruf-ahamed-fardin"><PiGithubLogoFill size={25} className='bg-[#89EA5F]  opacity-80 rounded-md p-1' color='black' /></a>
-                <a href="https://www.linkedin.com/in/maruf-ahamed-fardin-36a941215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin size={25} className='bg-[#89EA5F] rounded-md p-1 opacity-80' color='black' /></a>
-                <a href="instagram"><FaInstagramSquare  size={25} className='bg-[#89EA5F]  opacity-80 rounded-md p-1' color='black' /></a>
+                <a href="https://github.com/maruf-ahamed-fardin"><PiGithubLogoFill  size={25} className='bg-[#89EA5F] hover:scale-125 hover:bg-[#5aff13] opacity-80 rounded-md p-1' color='black' /></a>
+                <a href="https://www.linkedin.com/in/maruf-ahamed-fardin-36a941215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin size={25} className='bg-[#89EA5F] hover:scale-125 hover:bg-[#5aff13] rounded-md p-1 opacity-80' color='black' /></a>
+                <a href="instagram"><FaInstagramSquare  size={25} className='bg-[#89EA5F] hover:scale-125 hover:bg-[#5aff13] opacity-80 rounded-md p-1' color='black' /></a>
 
 
 

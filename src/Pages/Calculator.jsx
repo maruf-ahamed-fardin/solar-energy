@@ -1,5 +1,5 @@
 import { MdElectricBolt } from "react-icons/md";
-import { useState } from "react";
+
 
 const Calculator = () => {
 
@@ -40,7 +40,7 @@ const Calculator = () => {
 
 
 
-          <button className="btn btn-primary font-bold rounded-2xl w-full sm:col-span-2 sm:w-auto sm:justify-self-start px-8 py-3">
+          <button className="btn bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] text-white font-bold rounded-2xl w-full sm:col-span-2 sm:w-auto sm:justify-self-start px-8 py-3">
             Calculate
           </button>
 

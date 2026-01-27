@@ -20,70 +20,71 @@ import Service from '../Pages/Service';
 import WorkProcess from '../Pages/WorkProcess';
 
 const Home = () => {
-    return (
-       
-       <section>
-         <ScreenVideo />
-         <div  style={{position:"relative"}}>
+  return (
 
-        <Navbar />
-             
-               <AboutUs />
-             
-             
-             <AnimationScroll>
-              <Service/>
-             </AnimationScroll>
-             
-             <AnimationScroll>
-              <WorkProcess />
-             </AnimationScroll>
+    <section>
 
-             <AnimationScroll>
-              <Videos/>
-             </AnimationScroll>
-
-             <AnimationScroll>
-              <ProgressBar />
-             </AnimationScroll>
-             
-             <AnimationScroll>
-               <FeaturesSection />
-             </AnimationScroll>
-             
-             <AnimationScroll>
-              <Counts />
-             </AnimationScroll>
-             
-             <AnimationScroll>
-               <Calculator />
-             </AnimationScroll>
-             
-             <AnimationScroll>
-               <RecentArticles />
-             </AnimationScroll>
-             
-            
-              <Marquee />
-             
-             
-             
-              <Footer />
-           
-             
-             
-             
-           
-             
-            
-            
-             
-
-             
-
+      <div className="relative  min-h-screen">
+        <div style={{ position: "relative" }}>
+          <ScreenVideo />
+          <Navbar />
         </div>
-       </section>
-    );
+        <AboutUs />
+
+
+        <AnimationScroll>
+          <Service />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <WorkProcess />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <Videos />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <ProgressBar />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <FeaturesSection />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <Counts />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <Calculator />
+        </AnimationScroll>
+
+        <AnimationScroll>
+          <RecentArticles />
+        </AnimationScroll>
+
+
+        <Marquee />
+
+
+
+        <Footer />
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section>
+  );
 };
 
 export default Home;

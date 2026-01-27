@@ -61,7 +61,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className="flex justify-center md:justify-start">
-                    <button className="btn btn-primary px-5 py-1 rounded-2xl mt-6">
+                    <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl mt-6">
                         More About
                     </button>
                 </div>
