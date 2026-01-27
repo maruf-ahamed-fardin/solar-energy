@@ -1,6 +1,13 @@
 import { MdElectricBolt } from "react-icons/md";
+import { useState } from "react";
 
 const Calculator = () => {
+
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    console.log("Message sent to your email");
+  }
   return (
     <section className="px-4 sm:px-8 lg:px-40 py-10 sm:py-16">
       <div className="bg-[#EFF1ED] rounded-3xl p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -15,7 +22,7 @@ const Calculator = () => {
           </h1>
         </div>
 
-        <form className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <form className="grid grid-cols-1 sm:grid-cols-2 gap-3" onSubmit={handleOnSubmit}>
           <select className="w-full p-3 text-[#818181] rounded-2xl bg-white">
              <option value="please">please choose an option</option> 
              <option value="residential">Residential</option> 

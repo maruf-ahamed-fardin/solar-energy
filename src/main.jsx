@@ -8,6 +8,7 @@ import Home from "./home/Home.jsx";
 import AboutUs from "./About/AboutUs.jsx";
 import Service from "./Pages/Service.jsx";
 import About from "./About/About.jsx";
+import Contactus from "./Pages/ContactUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     path: "/service", element: <Service />
   },
   {
-    path: "/projects", element: <Home />
+    path: "/contact", element: <Contactus />
   },
   {
     path: "/pages", element: <Home />
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
   {
     path: "/blog", element: <Home />
   },
-]);
+])
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

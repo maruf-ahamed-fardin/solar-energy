@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ContactLinks from "../components/ContactLinks";
 import { MdElectricBolt } from "react-icons/md";
 
@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Projects", to: "/projects" },
   { label: "Pages", to: "/pages" },
   { label: "Blog", to: "/blog" },
+
 ];
 
 const Navbar = () => {
@@ -37,10 +38,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-
-          <button className="btn btn-primary px-4 sm:px-5 py-2 font-bold rounded-2xl">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="btn btn-primary px-4 sm:px-5 py-2 font-bold rounded-2xl">
+              Contact Us
+            </button>
+          </Link>
         </div>
 
         <div className="mt-16 sm:mt-20 md:mt-28 max-w-3xl text-center md:text-left">
@@ -63,9 +65,11 @@ const Navbar = () => {
             <button className="btn btn-primary px-5 py-1 rounded-2xl">
               Our Service
             </button>
-            <button className="btn btn-primary px-5 py-1 rounded-2xl">
-              Contact Now
-            </button>
+            <Link to="/contact">
+              <button className="btn btn-primary px-5 py-1 rounded-2xl">
+                Contact Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>

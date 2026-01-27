@@ -4,7 +4,7 @@ import { RxDragHandleDots1 } from 'react-icons/rx';
 const AboutUs = () => {
     return (
         
-        <section className="grid grid-cols-1 md:grid-cols-2 p-4 sm:p-10 md:p-20 lg:p-30 gap-10 items-center">
+        <section className="grid grid-cols-1 md:grid-cols-2 p-4 sm:p-10 md:p-10 lg:p-10 lg:px-40 gap-10 items-center">
             <div className="relative sm:py-20 right-to-left flex justify-center md:justify-start h-full w-full">
                 <img
                     className="rounded-4xl relative h-64 sm:h-80 md:h-100 md:w-[80%] object-cover"
