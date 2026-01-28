@@ -63,9 +63,9 @@ const Footer = () => {
                         Green Energy is a long reader will be distracted by the readable content of a page when.
                     </p>
 
-                    <div className="flex items-center gap-4 mt-4">
+                    <div className="flex items-center  gap-4 mt-4">
                         <a href="https://github.com/maruf-ahamed-fardin">
-                            <PiGithubLogoFill size={20} className="bg-[#89EA5F] rounded-md p-1 opacity-80" color="black" />
+                            <PiGithubLogoFill size={20} className="bg-[#89EA5F]  rounded-md p-1 opacity-80" color="black" />
                         </a>
                         <a href="https://www.linkedin.com/in/maruf-ahamed-fardin-36a941215">
                             <FaLinkedin size={20} className="bg-[#89EA5F] rounded-md p-1 opacity-80" color="black" />

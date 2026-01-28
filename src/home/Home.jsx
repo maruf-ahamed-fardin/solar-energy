@@ -1,6 +1,3 @@
-
-
-
 import AboutUs from '../About/AboutUs';
 import AnimationScroll from '../components/AnimationScroll';
 import Counts from '../components/Count';

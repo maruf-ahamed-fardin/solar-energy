@@ -9,16 +9,17 @@ import AboutUs from "./About/AboutUs.jsx";
 import Service from "./Pages/Service.jsx";
 import About from "./About/About.jsx";
 import Contactus from "./Pages/ContactUs.jsx";
+import OurServices from "./Pages/OurServices.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/", element: <Home />
   },
   {
-    path: "/about", element: <AboutUs />
+    path: "/about", element: <About />
   },
   {
-    path: "/service", element: <Service />
+    path: "/ourservices", element: <OurServices />
   },
   {
     path: "/contact", element: <Contactus />

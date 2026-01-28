@@ -7,7 +7,7 @@ import { PiGithubLogoFill } from 'react-icons/pi';
 
 const ContactLinks = () => {
     return (
-        <section className='flex justify-between mt-2 px-50 text-white relative'>
+        <section className='flex justify-between py-2 px-50 text-white relative'>
             <div className='flex hidden sm:flex items-center gap-4 animate-fade-in animation-delay-200'>
                 <MdMail className='mt-1.5  opacity-80'  color='#89EA5F' size={15} />
                 <a href="mailto:marufahamedfardin7@gmail.com">
