@@ -55,7 +55,7 @@ const Calculator = () => {
 
     {
     showMessage && (
-      <p className="MT-2 text-[#89EA5F] font-bold">
+      <p className="mt-2 text-[#89EA5F] font-bold">
         The Calculation is sent to your email!
       </p>
     )}

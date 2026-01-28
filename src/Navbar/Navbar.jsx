@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="relative z-10 text-white px-4 sm:px-10  fade-in">
 
         <NavbarLayout />
-        <div className="mt-16 sm:mt-20 md:mt-28 max-w-3xl md:px-40 text-center md:text-left">
+        <div className="mt-16 sm:mt-20 md:mt-28 max-w-4xl md:px-40 text-center md:text-left">
           <h3 className="font-bold text-sm flex items-center justify-center md:justify-start uppercase gap-1">
             <MdElectricBolt color="#7ED957" size={30} /> Welcome to Solar
           </h3>
@@ -31,10 +31,12 @@ const Navbar = () => {
             feugiat rutrum, augue lacus rhoncus velit, vel scelerisque odio est.
           </p>
 
-          <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl">
-              Our Service
-            </button>
+          <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start"> 
+            <Link to="/ourservices">
+              <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl">
+                Our Service
+              </button>
+            </Link>
             <Link to="/contact">
               <button className="btn text-white bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] px-5 py-1 rounded-2xl">
                 Contact Now
