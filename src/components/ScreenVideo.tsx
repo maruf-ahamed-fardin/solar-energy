@@ -6,7 +6,7 @@ const ScreenVideo = () => {
         <div  style={{position:"absolute", top:0, bottom:"0", width:"100%" }}> 
 
        
-           <video  autoPlay={true} loop={true} muted={true} style={{ width: "100%", height: "100%", objectFit: "cover"  }}>
+           <video autoPlay={true} loop={true} muted={true} style={{ width: "100%", height: "100%", objectFit: "cover", pointerEvents: "none" }}>
             
                 <source src={videoSrc }/>
            </video>

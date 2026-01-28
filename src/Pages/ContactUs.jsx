@@ -68,7 +68,7 @@ const ContactUs = () => {
 
       {/* card section */}
       <nav>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-12 md:px-40 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-3 py-12 md:px-40 gap-6">
           {cardData.map((card, index) => {
             const Icon = iconMap[card.icon];
 
