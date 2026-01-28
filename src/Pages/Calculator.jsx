@@ -1,12 +1,21 @@
+import { useState } from "react";
 import { MdElectricBolt } from "react-icons/md";
 
 
-const Calculator = () => {
+
+const Calculator = () => { 
+
+ 
+  
+  const [showMessage, setShowMessage] = useState(false);
 
 
-  const handleOnSubmit = (e) => {
+
+  const handleCalculate = (e) => {
     e.preventDefault();
-    console.log("Message sent to your email");
+   setShowMessage(true);  
+      
+
   }
   return (
     <section className="px-4 sm:px-8 lg:px-40 py-10 sm:py-16">
@@ -22,7 +31,7 @@ const Calculator = () => {
           </h1>
         </div>
 
-        <form className="grid grid-cols-1 sm:grid-cols-2 gap-3" onSubmit={handleOnSubmit}>
+        <form className="grid grid-cols-1 sm:grid-cols-2 gap-3" >
           <select className="w-full p-3 text-[#818181] rounded-2xl bg-white">
              <option value="please">please choose an option</option> 
              <option value="residential">Residential</option> 
@@ -40,11 +49,16 @@ const Calculator = () => {
 
 
 
-          <button className="btn bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] text-white font-bold rounded-2xl w-full sm:col-span-2 sm:w-auto sm:justify-self-start px-8 py-3">
+          <button onClick={handleCalculate} className="btn bg-[#89EA5F] transition duration-300 hover:scale-110 hover:bg-[#285713] text-white font-bold rounded-2xl w-full sm:col-span-2 sm:w-auto sm:justify-self-start px-8 py-3">
             Calculate
           </button>
 
-
+    {
+    showMessage && (
+      <p className="MT-2 text-[#89EA5F] font-bold">
+        The Calculation is sent to your email!
+      </p>
+    )}
 
         </form>
       </div>
@@ -52,5 +66,6 @@ const Calculator = () => {
     </section>
   );
 };
+
 
 export default Calculator;

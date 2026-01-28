@@ -6,8 +6,8 @@ const navLinks = [
     { label: "Home", to: "/" },
     { label: "About", to: "/about" },
     { label: "Services", to: "/ourservices" },
-    { label: "Projects", to: "/projects" },
-    { label: "Pages", to: "/pages" },
+    
+    { label: "Projects", to: "/project" },
     { label: "Blog", to: "/blog" },
 
 ];
@@ -20,7 +20,7 @@ const NavbarLayout = () => {
                 <ContactLinks />
             </div>
            <div className="md:px-40">
-             <div className="flex flex-col   md:flex-row justify-between items-center gap-4 px-4 sm:px-5 py-5 sm:py-7 rounded-4xl bg-white text-black mt-6">
+             <div className="flex flex-col   md:flex-row justify-between items-center gap-4 px-4 sm:px-5 py-5 sm:py-7 rounded-4xl bg-white text-black mt-2">
 
                 <h1 className="font-bold text-3xl md:text-4xl flex items-center gap-1">
 

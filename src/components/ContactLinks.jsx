@@ -7,7 +7,7 @@ import { PiGithubLogoFill } from 'react-icons/pi';
 
 const ContactLinks = () => {
     return (
-        <section className='flex justify-between py-2 px-50 text-white relative'>
+        <section className='flex justify-between py-2 px-40 md:px-50 text-white relative'>
             <div className='flex hidden sm:flex items-center gap-4 animate-fade-in animation-delay-200'>
                 <MdMail className='mt-1.5  opacity-80'  color='#89EA5F' size={15} />
                 <a href="mailto:marufahamedfardin7@gmail.com">
@@ -20,7 +20,7 @@ const ContactLinks = () => {
                 </a>
             </div>
 
-            <div className='flex items-center gap-4 animate-fade-in animation-delay-400'>
+            <div className='flex items-center gap-4  animate-fade-in text-center justify-center content-center align-middle animation-delay-400'>
 
                 <a href="https://github.com/maruf-ahamed-fardin"><PiGithubLogoFill  size={25} className='bg-[#89EA5F] hover:scale-125 hover:bg-[#5aff13] opacity-80 rounded-md p-1' color='black' /></a>
                 <a href="https://www.linkedin.com/in/maruf-ahamed-fardin-36a941215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin size={25} className='bg-[#89EA5F] hover:scale-125 hover:bg-[#5aff13] rounded-md p-1 opacity-80' color='black' /></a>
